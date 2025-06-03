@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ultimate Portfolio</title>
+  
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+  
+  <!-- FontAwesome Icons -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    rel="stylesheet"
+  />
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header id="header" class="header">
+    <nav class="navbar container">
+      <a href="#" class="logo">MyDesign</a>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#work" class="nav-link">Work</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li>
+          <button id="dark-toggle" class="dark-toggle" aria-label="Toggle Dark Mode">
+            <i class="fas fa-moon"></i>
+          </button>
+        </li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <h1 class="hero-title">Crafting Beautiful Digital Experiences</h1>
+      <p class="hero-subtitle">Web Design · UI/UX · Branding</p>
+      <a href="#work" class="btn btn-primary">See My Work</a>
+    </div>
+  </section>
+
+  <section id="about" class="section container">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-text">
+      I'm a passionate web designer focused on creating clean, user-friendly, and impactful websites.
+      I combine creativity with technology to build engaging digital experiences.
+    </p>
+  </section>
+
+  <section id="work" class="section container">
+    <h2 class="section-title">Selected Projects</h2>
+    <div class="gallery">
+      <div class="card">
+        <img src="https://picsum.photos/400/300?random=11" alt="Project 1" />
+        <div class="card-overlay">
+          <h3>Tech Launch Page</h3>
+          <a href="#" class="btn btn-secondary">View Project</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/400/300?random=12" alt="Project 2" />
+        <div class="card-overlay">
+          <h3>Mobile App UI</h3>
+          <a href="#" class="btn btn-secondary">View Project</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/400/300?random=13" alt="Project 3" />
+        <div class="card-overlay">
+          <h3>Brand Identity</h3>
+          <a href="#" class="btn btn-secondary">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section container contact-section">
+    <h2 class="section-title">Let’s Work Together</h2>
+    <p>Have a project idea or want to collaborate? Reach out!</p>
+    <a href="mailto:you@example.com" class="btn btn-primary">Get in Touch</a>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 MyDesign. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
